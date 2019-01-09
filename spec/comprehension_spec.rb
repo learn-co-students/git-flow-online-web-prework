@@ -14,7 +14,7 @@ describe "GIT" do
 
   it "3. What is the syntax for committing all staged changes with the message 
       'update link styles'?" do
-    answer = "git commit -am 'update link styles' "
+    answer = "git commit -m 'update link styles'"
     encoded_answer = "8d06e2760cda4755f387db0db0e6c425b2ece976"
     expect(encode(answer)).to eq(encoded_answer)
   end
@@ -76,7 +76,7 @@ describe "GIT" do
 
   it "11. What command do you run to update the local master branch with the 
       master branch on the remote 'upstream'?" do
-    answer = "git fetch upstream"
+    answer = "git fetch upstream master"
     encoded_answer = "10ce0782f27a2e126f7fe0f12dd189cc16578e26"
     expect(encode(answer)).to eq(encoded_answer)
   end
@@ -221,7 +221,7 @@ describe "GIT" do
 
   it "29. What is the syntax for deleting a remote branch called 'add-img' 
       on the remote 'butterfly' using the push and colon syntax?" do
-    answer = "git push butterfly: add-img"
+    answer = "git push butterfly :add-img"
     encoded_answer = "9e528dd3bf4ed25f25b148bdc947566883ba785b"
     expect(encode(answer)).to eq(encoded_answer)
   end
