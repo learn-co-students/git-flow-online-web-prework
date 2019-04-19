@@ -1,4 +1,4 @@
-git # Git Flow
+it # Git Flow
 
 ## Objectives
 
