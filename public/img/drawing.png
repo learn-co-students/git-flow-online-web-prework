@@ -1,0 +1,21 @@
+pasteImage.drawing.png
+
+### Visualization
+
+Just to review, this is the chronological order of this lab complete with a diagram of the branches:
+
+![branches](https://s3-us-west-2.amazonaws.com/readme-photos/git-flow-update-branches.png)
+
+1. from master, create branch add-turtle
+2. add turtle pic and caption to index.html
+3. merge add-turtle into master, now master has tree and turtle pics
+4. from master, create branch add-walrus
+5. add walrus pic and caption
+6. from master, create branch add-walrus-and-polar-bear
+7. add polar bear pic and caption
+8. merge add-walrus into add-walrus-and-polar-bear and fix merge conflicts - now branch has tree, turtle, polar bear, and walrus
+9. "Lauren" makes branch add-fireflies off of master and adds an emoticon to the readme
+11. add firefly pic and caption to add-firefly branch
+12. merge add-firefly into master
+
+Without looking at the diagram above, try and draw your own visualization. Take a picture of your work and add that image to the `public/img/` folder. Title your drawing "drawing.png".
